@@ -1,0 +1,584 @@
+{
+  "group": "terrain",
+  "size": {
+    "width": 1700,
+    "height": 68
+  },
+  "frames": {
+    "mountain_0": {
+      "frame": {
+        "x": 2,
+        "y": 0,
+        "w": 64,
+        "h": 66
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 65
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 66
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 66
+      }
+    },
+    "mountain_1": {
+      "frame": {
+        "x": 68,
+        "y": 0,
+        "w": 64,
+        "h": 66
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 65
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 66
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 66
+      }
+    },
+    "mountain_snow": {
+      "frame": {
+        "x": 136,
+        "y": 0,
+        "w": 64,
+        "h": 66
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 65
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 66
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 66
+      }
+    },
+    "forest_0": {
+      "frame": {
+        "x": 204,
+        "y": 6,
+        "w": 64,
+        "h": 60
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 59
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 60
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 60
+      }
+    },
+    "forest_1": {
+      "frame": {
+        "x": 272,
+        "y": 6,
+        "w": 64,
+        "h": 60
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 59
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 60
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 60
+      }
+    },
+    "forest_2": {
+      "frame": {
+        "x": 340,
+        "y": 6,
+        "w": 64,
+        "h": 60
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 59
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 60
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 60
+      }
+    },
+    "grass_0": {
+      "frame": {
+        "x": 408,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "grass_1": {
+      "frame": {
+        "x": 476,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "grass_2": {
+      "frame": {
+        "x": 544,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "grass_3": {
+      "frame": {
+        "x": 612,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "dirt_0": {
+      "frame": {
+        "x": 680,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "dirt_1": {
+      "frame": {
+        "x": 748,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "sand_0": {
+      "frame": {
+        "x": 816,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "water_0": {
+      "frame": {
+        "x": 884,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "water_1": {
+      "frame": {
+        "x": 952,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "water_2": {
+      "frame": {
+        "x": 1020,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "water_3": {
+      "frame": {
+        "x": 1088,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "road_x": {
+      "frame": {
+        "x": 1156,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "road_y": {
+      "frame": {
+        "x": 1224,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "road_cross": {
+      "frame": {
+        "x": 1292,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "road_curve_0": {
+      "frame": {
+        "x": 1360,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "road_curve_1": {
+      "frame": {
+        "x": 1428,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "road_curve_2": {
+      "frame": {
+        "x": 1496,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "road_curve_3": {
+      "frame": {
+        "x": 1564,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    },
+    "plot_marker": {
+      "frame": {
+        "x": 1632,
+        "y": 34,
+        "w": 64,
+        "h": 32
+      },
+      "groundAnchor": {
+        "x": 32,
+        "y": 31
+      },
+      "rotated": false,
+      "sourceSize": {
+        "w": 64,
+        "h": 32
+      },
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 64,
+        "h": 32
+      }
+    }
+  }
+}

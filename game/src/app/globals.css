@@ -1,0 +1,158 @@
+@import "tailwindcss";
+
+/* Colours follow the sprite palette (tools/sprites/palette.js) but are lifted for
+   legibility: every text token clears WCAG AA 4.5:1 on --color-surface, and the page
+   background is far enough below the panel background for panels to read as panels — the
+   previous navy-on-navy pair separated by only 1.17x luminance.
+   Declared once, in @theme: Tailwind emits these to :root and generates the matching
+   text, background and border utilities from the same source. */
+@theme {
+  --color-page: #080d18;
+  --color-surface: #182136;
+  --color-surface-hi: #232f4a;
+  --color-line: #33415e;
+  --color-ink: #e8eefb;
+  --color-ink-dim: #a3b3cf;
+  --color-cyan: #5fdce6;
+  --color-blue: #6fb3ef;
+  --color-amber: #ffc061;
+  --color-danger: #ff7d72;
+  --color-ok: #6ee194;
+  --color-outline: #202430;
+
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+
+  /* Semantic type scale. 13px is the floor: below that the HUD stops being readable,
+     and the retro feel comes from the art, not from shrinking the text. */
+  --text-eyebrow: 11px;
+  --text-eyebrow--line-height: 1.2;
+  --text-eyebrow--letter-spacing: 0.08em;
+  --text-label: 13px;
+  --text-label--line-height: 1.35;
+  --text-value: 16px;
+  --text-value--line-height: 1.2;
+  --text-title: 19px;
+  --text-title--line-height: 1.2;
+  --text-hero: 46px;
+  --text-hero--line-height: 1;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: var(--color-page);
+  color: var(--color-ink);
+  font-family: var(--font-sans), ui-sans-serif, system-ui, sans-serif;
+  /* Pixel art must never be smoothed by a browser default. */
+  image-rendering: pixelated;
+  overflow: hidden;
+}
+
+/* Digits line up without forcing prose into a monospace face. */
+.stat {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum";
+}
+
+.panel {
+  background: var(--color-surface);
+  border: 2px solid var(--color-line);
+}
+
+.eyebrow {
+  font-size: var(--text-eyebrow);
+  letter-spacing: var(--text-eyebrow--letter-spacing);
+  text-transform: uppercase;
+  color: var(--color-cyan);
+  font-weight: 600;
+}
+
+button {
+  font-family: inherit;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--color-surface-hi);
+  border: 2px solid var(--color-line);
+  color: var(--color-ink);
+  font-size: var(--text-label);
+  font-weight: 500;
+  line-height: 1.2;
+  padding: 6px 10px;
+  cursor: pointer;
+  transition: background 100ms linear, border-color 100ms linear;
+}
+
+.btn:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--color-surface-hi) 60%, var(--color-cyan));
+  border-color: var(--color-cyan);
+}
+
+.btn[data-on="true"] {
+  background: var(--color-cyan);
+  border-color: var(--color-cyan);
+  color: var(--color-page);
+  font-weight: 600;
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+/* Chunky retro sliders: the default range input is the wrong shape entirely. */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 16px;
+  background: var(--color-page);
+  border: 2px solid var(--color-line);
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 26px;
+  background: var(--color-cyan);
+  border: 2px solid var(--color-outline);
+  cursor: ew-resize;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 14px;
+  height: 26px;
+  border-radius: 0;
+  background: var(--color-cyan);
+  border: 2px solid var(--color-outline);
+  cursor: ew-resize;
+}
+
+input[type="range"]:focus-visible {
+  outline: 2px solid var(--color-amber);
+  outline-offset: 2px;
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-cyan);
+  outline-offset: 1px;
+}
+
+details summary {
+  cursor: pointer;
+  color: var(--color-ink-dim);
+  font-size: var(--text-label);
+}
+
+details summary:hover {
+  color: var(--color-ink);
+}

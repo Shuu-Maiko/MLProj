@@ -1,0 +1,326 @@
+[
+  {
+    "key": "res_house_0",
+    "category": "residential",
+    "tier": 1,
+    "footprint": [
+      1,
+      1
+    ]
+  },
+  {
+    "key": "res_house_1",
+    "category": "residential",
+    "tier": 1,
+    "footprint": [
+      1,
+      1
+    ]
+  },
+  {
+    "key": "res_house_2",
+    "category": "residential",
+    "tier": 1,
+    "footprint": [
+      1,
+      1
+    ]
+  },
+  {
+    "key": "res_house_3",
+    "category": "residential",
+    "tier": 1,
+    "footprint": [
+      1,
+      1
+    ]
+  },
+  {
+    "key": "res_villa_0",
+    "category": "residential",
+    "tier": 2,
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "key": "res_villa_1",
+    "category": "residential",
+    "tier": 2,
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "key": "res_villa_2",
+    "category": "residential",
+    "tier": 2,
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "key": "res_apt_0",
+    "category": "residential",
+    "tier": 3,
+    "footprint": [
+      2,
+      2
+    ]
+  },
+  {
+    "key": "res_apt_1",
+    "category": "residential",
+    "tier": 3,
+    "footprint": [
+      2,
+      2
+    ]
+  },
+  {
+    "key": "res_apt_2",
+    "category": "residential",
+    "tier": 3,
+    "footprint": [
+      2,
+      2
+    ]
+  },
+  {
+    "key": "res_apt_3",
+    "category": "residential",
+    "tier": 3,
+    "footprint": [
+      2,
+      2
+    ]
+  },
+  {
+    "key": "res_tower_0",
+    "category": "residential",
+    "tier": 4,
+    "footprint": [
+      2,
+      2
+    ]
+  },
+  {
+    "key": "res_tower_1",
+    "category": "residential",
+    "tier": 4,
+    "footprint": [
+      2,
+      2
+    ]
+  },
+  {
+    "key": "res_tower_2",
+    "category": "residential",
+    "tier": 4,
+    "footprint": [
+      2,
+      2
+    ]
+  },
+  {
+    "key": "com_shop_0",
+    "category": "commercial",
+    "tier": 1,
+    "footprint": [
+      1,
+      1
+    ]
+  },
+  {
+    "key": "com_shop_1",
+    "category": "commercial",
+    "tier": 1,
+    "footprint": [
+      1,
+      1
+    ]
+  },
+  {
+    "key": "com_shop_2",
+    "category": "commercial",
+    "tier": 1,
+    "footprint": [
+      1,
+      1
+    ]
+  },
+  {
+    "key": "com_shop_3",
+    "category": "commercial",
+    "tier": 1,
+    "footprint": [
+      1,
+      1
+    ]
+  },
+  {
+    "key": "com_market_0",
+    "category": "commercial",
+    "tier": 2,
+    "footprint": [
+      2,
+      2
+    ]
+  },
+  {
+    "key": "com_market_1",
+    "category": "commercial",
+    "tier": 2,
+    "footprint": [
+      2,
+      2
+    ]
+  },
+  {
+    "key": "com_office_0",
+    "category": "commercial",
+    "tier": 3,
+    "footprint": [
+      2,
+      2
+    ]
+  },
+  {
+    "key": "com_office_1",
+    "category": "commercial",
+    "tier": 3,
+    "footprint": [
+      2,
+      2
+    ]
+  },
+  {
+    "key": "com_office_2",
+    "category": "commercial",
+    "tier": 3,
+    "footprint": [
+      2,
+      2
+    ]
+  },
+  {
+    "key": "com_mall_0",
+    "category": "commercial",
+    "tier": 3,
+    "footprint": [
+      3,
+      2
+    ]
+  },
+  {
+    "key": "com_mall_1",
+    "category": "commercial",
+    "tier": 3,
+    "footprint": [
+      3,
+      2
+    ]
+  },
+  {
+    "key": "com_hotel_0",
+    "category": "commercial",
+    "tier": 4,
+    "footprint": [
+      2,
+      3
+    ]
+  },
+  {
+    "key": "com_hotel_1",
+    "category": "commercial",
+    "tier": 4,
+    "footprint": [
+      2,
+      3
+    ]
+  },
+  {
+    "key": "ind_workshop_0",
+    "category": "industrial",
+    "tier": 1,
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "key": "ind_workshop_1",
+    "category": "industrial",
+    "tier": 1,
+    "footprint": [
+      2,
+      1
+    ]
+  },
+  {
+    "key": "ind_factory_0",
+    "category": "industrial",
+    "tier": 2,
+    "footprint": [
+      3,
+      2
+    ]
+  },
+  {
+    "key": "ind_factory_1",
+    "category": "industrial",
+    "tier": 2,
+    "footprint": [
+      3,
+      2
+    ]
+  },
+  {
+    "key": "ind_factory_2",
+    "category": "industrial",
+    "tier": 2,
+    "footprint": [
+      3,
+      2
+    ]
+  },
+  {
+    "key": "ind_warehouse_0",
+    "category": "industrial",
+    "tier": 2,
+    "footprint": [
+      3,
+      2
+    ]
+  },
+  {
+    "key": "ind_warehouse_1",
+    "category": "industrial",
+    "tier": 2,
+    "footprint": [
+      3,
+      2
+    ]
+  },
+  {
+    "key": "ind_complex_0",
+    "category": "industrial",
+    "tier": 3,
+    "footprint": [
+      3,
+      3
+    ]
+  },
+  {
+    "key": "ind_complex_1",
+    "category": "industrial",
+    "tier": 3,
+    "footprint": [
+      3,
+      3
+    ]
+  }
+]
