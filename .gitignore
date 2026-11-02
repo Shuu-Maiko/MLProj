@@ -1,0 +1,125 @@
+# ============================================
+# OS / Editor / IDE
+# ============================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# ============================================
+# Node / Next.js (game/)
+# ============================================
+node_modules/
+.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# Next.js build output
+.next/
+out/
+build/
+dist/
+.turbo/
+.vercel/
+next-env.d.ts
+
+# Misc Node caches
+.npm
+.eslintcache
+*.tsbuildinfo
+coverage/
+
+# ============================================
+# Python (backend/)
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Packaging / build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Testing / tooling
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+
+# ============================================
+# Environment / secrets
+# ============================================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets/
+
+# ============================================
+# Logs / temp
+# ============================================
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# ============================================
+# Machine-learning artifacts (large binaries)
+# ============================================
+# Trained model weights — usually too large for git.
+# Remove these lines if you intentionally version weights.
+backend/artifacts/models/**/*.pt
+backend/artifacts/models/**/*.pth
+backend/artifacts/models/**/*.ckpt
+backend/artifacts/models/**/*.onnx
+backend/artifacts/models/**/*.bin
+backend/artifacts/models/**/*.safetensors
+
+# LightGBM text models & metadata — small, may be kept.
+# Uncomment to ignore if you treat them as build outputs.
+# backend/artifacts/models/lgbm/*.txt
+
+# ============================================
+# Data (large / reproducible)
+# ============================================
+# Raw scraped/downloaded data — comment out to commit small samples.
+backend/data/raw/**/*.csv
+backend/data/raw/**/*.parquet
+backend/data/raw/state_15min/
+
+# Processed datasets — regenerable from raw via pipeline.
+# backend/data/processed/*.parquet
+
+# ============================================
+# Evaluation / run outputs (optional)
+# ============================================
+# backend/artifacts/results/*.parquet
+# backend/artifacts/results/*.json

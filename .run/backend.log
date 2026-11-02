@@ -1,0 +1,49 @@
+INFO:     Started server process [121986]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     127.0.0.1:34598 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42126 - "GET /model HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42152 - "GET /history?state=DL&hour=2424&hours=48 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42152 - "GET /model HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42184 - "GET /history?state=DL&hour=2424&hours=48 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42126 - "GET /cities?hour=2424 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42126 - "GET /cities?hour=2424 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42142 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42172 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42166 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42126 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42126 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42142 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34772 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34768 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34774 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34788 - "GET /history?state=DL&hour=2436&hours=48 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34792 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34788 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34804 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44766 - "GET /history?state=DL&hour=2441&hours=48 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44766 - "GET /history?state=DL&hour=2441&hours=48 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44786 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44766 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44772 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44766 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44766 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:44766 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42074 - "GET /history?state=DL&hour=2448&hours=48 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42074 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42078 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:42074 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48932 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48928 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:48928 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34916 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34914 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:34914 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36646 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36650 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     127.0.0.1:36646 - "POST /forecast HTTP/1.1" 200 OK
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [121986]

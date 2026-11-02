@@ -1,0 +1,997 @@
+{
+  "baseline": {
+    "lightgbm": {
+      "MAE_MW": 426.0,
+      "RMSE_MW": 824.2,
+      "MAPE_pct": 7.01,
+      "PI80_coverage_pct": 78.0,
+      "PI80_width_MW": 1104.6,
+      "raw_quantile_PI80_coverage_pct": 61.6,
+      "pinball_MW": {
+        "q01": 87.08,
+        "q05": 213.02,
+        "q09": 132.95
+      },
+      "per_horizon": {
+        "h1": {
+          "n": 60587,
+          "MAE_MW": 337.8,
+          "RMSE_MW": 672.0,
+          "MAPE_pct": 5.55,
+          "PI80_coverage_pct": 77.0,
+          "PI80_width_MW": 841.8
+        },
+        "h6": {
+          "n": 57404,
+          "MAE_MW": 460.3,
+          "RMSE_MW": 878.4,
+          "MAPE_pct": 7.55,
+          "PI80_coverage_pct": 78.2,
+          "PI80_width_MW": 1198.9
+        },
+        "h12": {
+          "n": 57235,
+          "MAE_MW": 494.8,
+          "RMSE_MW": 942.9,
+          "MAPE_pct": 7.95,
+          "PI80_coverage_pct": 78.2,
+          "PI80_width_MW": 1289.4
+        },
+        "h24": {
+          "n": 60887,
+          "MAE_MW": 416.9,
+          "RMSE_MW": 788.5,
+          "MAPE_pct": 7.05,
+          "PI80_coverage_pct": 78.5,
+          "PI80_width_MW": 1103.6
+        }
+      }
+    }
+  },
+  "models": {
+    "patchtst": {
+      "model": "patchtst",
+      "overall": {
+        "MAE_MW": 520.2,
+        "RMSE_MW": 970.6,
+        "MAPE_pct": 9.25,
+        "PI80_coverage_pct": 79.2,
+        "PI80_width_MW": 1619.1
+      },
+      "per_horizon": {
+        "h1": {
+          "MAE_MW": 460.6,
+          "RMSE_MW": 898.4,
+          "MAPE_pct": 7.83,
+          "PI80_coverage_pct": 86.1,
+          "PI80_width_MW": 1600.3,
+          "n": 569
+        },
+        "h6": {
+          "MAE_MW": 538.4,
+          "RMSE_MW": 1021.0,
+          "MAPE_pct": 8.75,
+          "PI80_coverage_pct": 79.4,
+          "PI80_width_MW": 1575.3,
+          "n": 569
+        },
+        "h12": {
+          "MAE_MW": 519.4,
+          "RMSE_MW": 982.9,
+          "MAPE_pct": 8.93,
+          "PI80_coverage_pct": 79.8,
+          "PI80_width_MW": 1590.9,
+          "n": 569
+        },
+        "h24": {
+          "MAE_MW": 546.3,
+          "RMSE_MW": 1028.2,
+          "MAPE_pct": 9.24,
+          "PI80_coverage_pct": 77.7,
+          "PI80_width_MW": 1620.2,
+          "n": 569
+        }
+      },
+      "per_state": {
+        "ACP": {
+          "MAE_MW": 16.8,
+          "RMSE_MW": 21.4,
+          "MAPE_pct": 9.79,
+          "PI80_coverage_pct": 82.9,
+          "PI80_width_MW": 58.7,
+          "n": 18
+        },
+        "AP": {
+          "MAE_MW": 836.5,
+          "RMSE_MW": 1047.1,
+          "MAPE_pct": 7.18,
+          "PI80_coverage_pct": 70.8,
+          "PI80_width_MW": 2517.3,
+          "n": 18
+        },
+        "ASM": {
+          "MAE_MW": 272.8,
+          "RMSE_MW": 314.9,
+          "MAPE_pct": 12.9,
+          "PI80_coverage_pct": 85.0,
+          "PI80_width_MW": 887.5,
+          "n": 18
+        },
+        "BGL": {
+          "MAE_MW": 694.3,
+          "RMSE_MW": 851.1,
+          "MAPE_pct": 6.62,
+          "PI80_coverage_pct": 73.8,
+          "PI80_width_MW": 2226.7,
+          "n": 18
+        },
+        "CTG": {
+          "MAE_MW": 296.7,
+          "RMSE_MW": 364.7,
+          "MAPE_pct": 6.41,
+          "PI80_coverage_pct": 70.1,
+          "PI80_width_MW": 798.4,
+          "n": 18
+        },
+        "DL": {
+          "MAE_MW": 468.0,
+          "RMSE_MW": 584.3,
+          "MAPE_pct": 8.17,
+          "PI80_coverage_pct": 83.8,
+          "PI80_width_MW": 1797.9,
+          "n": 18
+        },
+        "DND": {
+          "MAE_MW": 16.1,
+          "RMSE_MW": 19.9,
+          "MAPE_pct": 4.55,
+          "PI80_coverage_pct": 83.8,
+          "PI80_width_MW": 57.5,
+          "n": 18
+        },
+        "DNH": {
+          "MAE_MW": 38.5,
+          "RMSE_MW": 51.1,
+          "MAPE_pct": 3.95,
+          "PI80_coverage_pct": 78.2,
+          "PI80_width_MW": 126.9,
+          "n": 18
+        },
+        "GJT": {
+          "MAE_MW": 1919.2,
+          "RMSE_MW": 2246.2,
+          "MAPE_pct": 8.29,
+          "PI80_coverage_pct": 67.4,
+          "PI80_width_MW": 4936.0,
+          "n": 18
+        },
+        "GOA": {
+          "MAE_MW": 32.5,
+          "RMSE_MW": 40.3,
+          "MAPE_pct": 6.0,
+          "PI80_coverage_pct": 78.7,
+          "PI80_width_MW": 98.9,
+          "n": 18
+        },
+        "HP": {
+          "MAE_MW": 99.6,
+          "RMSE_MW": 123.2,
+          "MAPE_pct": 8.09,
+          "PI80_coverage_pct": 82.9,
+          "PI80_width_MW": 296.4,
+          "n": 18
+        },
+        "HRN": {
+          "MAE_MW": 566.7,
+          "RMSE_MW": 677.8,
+          "MAPE_pct": 4.81,
+          "PI80_coverage_pct": 90.7,
+          "PI80_width_MW": 2543.2,
+          "n": 18
+        },
+        "JAK": {
+          "MAE_MW": 187.3,
+          "RMSE_MW": 242.2,
+          "MAPE_pct": 10.06,
+          "PI80_coverage_pct": 78.5,
+          "PI80_width_MW": 562.0,
+          "n": 18
+        },
+        "JHK": {
+          "MAE_MW": 144.5,
+          "RMSE_MW": 198.4,
+          "MAPE_pct": 7.89,
+          "PI80_coverage_pct": 79.6,
+          "PI80_width_MW": 401.0,
+          "n": 18
+        },
+        "KRL": {
+          "MAE_MW": 406.2,
+          "RMSE_MW": 503.6,
+          "MAPE_pct": 12.24,
+          "PI80_coverage_pct": 69.9,
+          "PI80_width_MW": 1130.6,
+          "n": 18
+        },
+        "KRT": {
+          "MAE_MW": 1740.2,
+          "RMSE_MW": 1989.4,
+          "MAPE_pct": 14.32,
+          "PI80_coverage_pct": 74.8,
+          "PI80_width_MW": 4761.0,
+          "n": 18
+        },
+        "MGA": {
+          "MAE_MW": 24.1,
+          "RMSE_MW": 31.3,
+          "MAPE_pct": 8.6,
+          "PI80_coverage_pct": 83.3,
+          "PI80_width_MW": 88.3,
+          "n": 18
+        },
+        "MHA": {
+          "MAE_MW": 996.6,
+          "RMSE_MW": 1266.8,
+          "MAPE_pct": 3.82,
+          "PI80_coverage_pct": 82.2,
+          "PI80_width_MW": 3683.5,
+          "n": 18
+        },
+        "MIP": {
+          "MAE_MW": 25.1,
+          "RMSE_MW": 31.1,
+          "MAPE_pct": 17.19,
+          "PI80_coverage_pct": 82.2,
+          "PI80_width_MW": 76.4,
+          "n": 18
+        },
+        "MPD": {
+          "MAE_MW": 502.3,
+          "RMSE_MW": 632.6,
+          "MAPE_pct": 4.55,
+          "PI80_coverage_pct": 81.9,
+          "PI80_width_MW": 1748.8,
+          "n": 18
+        },
+        "MZM": {
+          "MAE_MW": 20.3,
+          "RMSE_MW": 23.8,
+          "MAPE_pct": 22.65,
+          "PI80_coverage_pct": 78.5,
+          "PI80_width_MW": 64.8,
+          "n": 18
+        },
+        "NGD": {
+          "MAE_MW": 21.7,
+          "RMSE_MW": 25.9,
+          "MAPE_pct": 16.35,
+          "PI80_coverage_pct": 86.6,
+          "PI80_width_MW": 71.1,
+          "n": 18
+        },
+        "ODI": {
+          "MAE_MW": 225.5,
+          "RMSE_MW": 279.7,
+          "MAPE_pct": 3.97,
+          "PI80_coverage_pct": 89.1,
+          "PI80_width_MW": 966.8,
+          "n": 18
+        },
+        "PNB": {
+          "MAE_MW": 824.3,
+          "RMSE_MW": 1001.7,
+          "MAPE_pct": 5.77,
+          "PI80_coverage_pct": 85.0,
+          "PI80_width_MW": 3488.7,
+          "n": 18
+        },
+        "PU": {
+          "MAE_MW": 40.3,
+          "RMSE_MW": 48.3,
+          "MAPE_pct": 9.81,
+          "PI80_coverage_pct": 70.5,
+          "PI80_width_MW": 100.3,
+          "n": 12
+        },
+        "RJ": {
+          "MAE_MW": 735.2,
+          "RMSE_MW": 883.8,
+          "MAPE_pct": 4.7,
+          "PI80_coverage_pct": 79.6,
+          "PI80_width_MW": 2380.1,
+          "n": 18
+        },
+        "SKM": {
+          "MAE_MW": 16.3,
+          "RMSE_MW": 18.7,
+          "MAPE_pct": 18.91,
+          "PI80_coverage_pct": 69.9,
+          "PI80_width_MW": 42.2,
+          "n": 18
+        },
+        "TLG": {
+          "MAE_MW": 2333.2,
+          "RMSE_MW": 2570.2,
+          "MAPE_pct": 21.38,
+          "PI80_coverage_pct": 79.7,
+          "PI80_width_MW": 6655.3,
+          "n": 17
+        },
+        "TND": {
+          "MAE_MW": 742.1,
+          "RMSE_MW": 914.2,
+          "MAPE_pct": 4.32,
+          "PI80_coverage_pct": 89.8,
+          "PI80_width_MW": 2872.6,
+          "n": 18
+        },
+        "TPA": {
+          "MAE_MW": 27.4,
+          "RMSE_MW": 34.3,
+          "MAPE_pct": 10.36,
+          "PI80_coverage_pct": 81.5,
+          "PI80_width_MW": 89.3,
+          "n": 18
+        },
+        "UP": {
+          "MAE_MW": 2167.9,
+          "RMSE_MW": 2562.8,
+          "MAPE_pct": 9.28,
+          "PI80_coverage_pct": 66.0,
+          "PI80_width_MW": 5627.5,
+          "n": 18
+        },
+        "UTK": {
+          "MAE_MW": 148.2,
+          "RMSE_MW": 189.3,
+          "MAPE_pct": 8.37,
+          "PI80_coverage_pct": 76.2,
+          "PI80_width_MW": 428.2,
+          "n": 18
+        }
+      },
+      "meta": {
+        "params": 70275,
+        "best_epoch": 15,
+        "valid_MAE_MW": 534.5,
+        "train_seconds": 241.7
+      }
+    },
+    "itransformer": {
+      "model": "itransformer",
+      "overall": {
+        "MAE_MW": 307.2,
+        "RMSE_MW": 574.9,
+        "MAPE_pct": 5.56,
+        "PI80_coverage_pct": 82.4,
+        "PI80_width_MW": 1199.4
+      },
+      "per_horizon": {
+        "h1": {
+          "MAE_MW": 241.8,
+          "RMSE_MW": 459.3,
+          "MAPE_pct": 4.15,
+          "PI80_coverage_pct": 83.8,
+          "PI80_width_MW": 908.6,
+          "n": 569
+        },
+        "h6": {
+          "MAE_MW": 315.7,
+          "RMSE_MW": 598.7,
+          "MAPE_pct": 5.05,
+          "PI80_coverage_pct": 84.4,
+          "PI80_width_MW": 1142.7,
+          "n": 569
+        },
+        "h12": {
+          "MAE_MW": 338.6,
+          "RMSE_MW": 646.2,
+          "MAPE_pct": 5.55,
+          "PI80_coverage_pct": 84.0,
+          "PI80_width_MW": 1296.5,
+          "n": 569
+        },
+        "h24": {
+          "MAE_MW": 336.2,
+          "RMSE_MW": 600.7,
+          "MAPE_pct": 5.79,
+          "PI80_coverage_pct": 84.7,
+          "PI80_width_MW": 1338.7,
+          "n": 569
+        }
+      },
+      "per_state": {
+        "ACP": {
+          "MAE_MW": 13.1,
+          "RMSE_MW": 16.0,
+          "MAPE_pct": 7.98,
+          "PI80_coverage_pct": 62.5,
+          "PI80_width_MW": 30.7,
+          "n": 18
+        },
+        "AP": {
+          "MAE_MW": 318.1,
+          "RMSE_MW": 407.0,
+          "MAPE_pct": 2.79,
+          "PI80_coverage_pct": 96.5,
+          "PI80_width_MW": 2033.1,
+          "n": 18
+        },
+        "ASM": {
+          "MAE_MW": 108.5,
+          "RMSE_MW": 130.6,
+          "MAPE_pct": 5.02,
+          "PI80_coverage_pct": 90.5,
+          "PI80_width_MW": 467.4,
+          "n": 18
+        },
+        "BGL": {
+          "MAE_MW": 473.3,
+          "RMSE_MW": 565.8,
+          "MAPE_pct": 4.52,
+          "PI80_coverage_pct": 91.0,
+          "PI80_width_MW": 1907.1,
+          "n": 18
+        },
+        "CTG": {
+          "MAE_MW": 180.4,
+          "RMSE_MW": 223.3,
+          "MAPE_pct": 3.89,
+          "PI80_coverage_pct": 94.0,
+          "PI80_width_MW": 847.8,
+          "n": 18
+        },
+        "DL": {
+          "MAE_MW": 301.2,
+          "RMSE_MW": 375.0,
+          "MAPE_pct": 5.06,
+          "PI80_coverage_pct": 92.1,
+          "PI80_width_MW": 1245.2,
+          "n": 18
+        },
+        "DND": {
+          "MAE_MW": 14.5,
+          "RMSE_MW": 18.4,
+          "MAPE_pct": 4.16,
+          "PI80_coverage_pct": 90.7,
+          "PI80_width_MW": 58.2,
+          "n": 18
+        },
+        "DNH": {
+          "MAE_MW": 20.4,
+          "RMSE_MW": 25.9,
+          "MAPE_pct": 2.09,
+          "PI80_coverage_pct": 98.4,
+          "PI80_width_MW": 148.5,
+          "n": 18
+        },
+        "GJT": {
+          "MAE_MW": 1012.2,
+          "RMSE_MW": 1338.6,
+          "MAPE_pct": 4.31,
+          "PI80_coverage_pct": 77.1,
+          "PI80_width_MW": 3367.2,
+          "n": 18
+        },
+        "GOA": {
+          "MAE_MW": 23.3,
+          "RMSE_MW": 30.3,
+          "MAPE_pct": 4.26,
+          "PI80_coverage_pct": 86.3,
+          "PI80_width_MW": 88.1,
+          "n": 18
+        },
+        "HP": {
+          "MAE_MW": 68.3,
+          "RMSE_MW": 89.1,
+          "MAPE_pct": 5.47,
+          "PI80_coverage_pct": 79.9,
+          "PI80_width_MW": 225.1,
+          "n": 18
+        },
+        "HRN": {
+          "MAE_MW": 510.4,
+          "RMSE_MW": 625.6,
+          "MAPE_pct": 4.31,
+          "PI80_coverage_pct": 93.1,
+          "PI80_width_MW": 2344.7,
+          "n": 18
+        },
+        "JAK": {
+          "MAE_MW": 122.0,
+          "RMSE_MW": 177.2,
+          "MAPE_pct": 6.31,
+          "PI80_coverage_pct": 80.6,
+          "PI80_width_MW": 374.3,
+          "n": 18
+        },
+        "JHK": {
+          "MAE_MW": 115.5,
+          "RMSE_MW": 159.3,
+          "MAPE_pct": 6.29,
+          "PI80_coverage_pct": 75.2,
+          "PI80_width_MW": 318.0,
+          "n": 18
+        },
+        "KRL": {
+          "MAE_MW": 224.9,
+          "RMSE_MW": 281.8,
+          "MAPE_pct": 7.02,
+          "PI80_coverage_pct": 73.8,
+          "PI80_width_MW": 647.7,
+          "n": 18
+        },
+        "KRT": {
+          "MAE_MW": 585.4,
+          "RMSE_MW": 759.1,
+          "MAPE_pct": 4.77,
+          "PI80_coverage_pct": 86.6,
+          "PI80_width_MW": 2279.2,
+          "n": 18
+        },
+        "MGA": {
+          "MAE_MW": 15.3,
+          "RMSE_MW": 20.0,
+          "MAPE_pct": 5.51,
+          "PI80_coverage_pct": 82.9,
+          "PI80_width_MW": 55.7,
+          "n": 18
+        },
+        "MHA": {
+          "MAE_MW": 772.2,
+          "RMSE_MW": 995.1,
+          "MAPE_pct": 2.99,
+          "PI80_coverage_pct": 92.6,
+          "PI80_width_MW": 3690.7,
+          "n": 18
+        },
+        "MIP": {
+          "MAE_MW": 11.6,
+          "RMSE_MW": 17.1,
+          "MAPE_pct": 7.53,
+          "PI80_coverage_pct": 80.6,
+          "PI80_width_MW": 38.0,
+          "n": 18
+        },
+        "MPD": {
+          "MAE_MW": 319.3,
+          "RMSE_MW": 399.0,
+          "MAPE_pct": 2.9,
+          "PI80_coverage_pct": 96.3,
+          "PI80_width_MW": 1690.3,
+          "n": 18
+        },
+        "MZM": {
+          "MAE_MW": 8.6,
+          "RMSE_MW": 11.3,
+          "MAPE_pct": 10.0,
+          "PI80_coverage_pct": 74.3,
+          "PI80_width_MW": 23.6,
+          "n": 18
+        },
+        "NGD": {
+          "MAE_MW": 13.2,
+          "RMSE_MW": 17.7,
+          "MAPE_pct": 10.29,
+          "PI80_coverage_pct": 72.2,
+          "PI80_width_MW": 32.0,
+          "n": 18
+        },
+        "ODI": {
+          "MAE_MW": 224.4,
+          "RMSE_MW": 279.5,
+          "MAPE_pct": 3.91,
+          "PI80_coverage_pct": 88.9,
+          "PI80_width_MW": 937.4,
+          "n": 18
+        },
+        "PNB": {
+          "MAE_MW": 1228.7,
+          "RMSE_MW": 1377.2,
+          "MAPE_pct": 8.62,
+          "PI80_coverage_pct": 54.4,
+          "PI80_width_MW": 2741.0,
+          "n": 18
+        },
+        "PU": {
+          "MAE_MW": 25.2,
+          "RMSE_MW": 31.6,
+          "MAPE_pct": 6.25,
+          "PI80_coverage_pct": 73.3,
+          "PI80_width_MW": 68.3,
+          "n": 12
+        },
+        "RJ": {
+          "MAE_MW": 534.0,
+          "RMSE_MW": 693.0,
+          "MAPE_pct": 3.4,
+          "PI80_coverage_pct": 87.5,
+          "PI80_width_MW": 2282.4,
+          "n": 18
+        },
+        "SKM": {
+          "MAE_MW": 10.3,
+          "RMSE_MW": 12.9,
+          "MAPE_pct": 13.6,
+          "PI80_coverage_pct": 41.9,
+          "PI80_width_MW": 15.9,
+          "n": 18
+        },
+        "TLG": {
+          "MAE_MW": 759.9,
+          "RMSE_MW": 1024.4,
+          "MAPE_pct": 6.77,
+          "PI80_coverage_pct": 84.3,
+          "PI80_width_MW": 2504.5,
+          "n": 17
+        },
+        "TND": {
+          "MAE_MW": 586.7,
+          "RMSE_MW": 744.8,
+          "MAPE_pct": 3.41,
+          "PI80_coverage_pct": 93.1,
+          "PI80_width_MW": 2650.7,
+          "n": 18
+        },
+        "TPA": {
+          "MAE_MW": 19.4,
+          "RMSE_MW": 24.5,
+          "MAPE_pct": 7.64,
+          "PI80_coverage_pct": 72.2,
+          "PI80_width_MW": 52.3,
+          "n": 18
+        },
+        "UP": {
+          "MAE_MW": 1037.5,
+          "RMSE_MW": 1295.7,
+          "MAPE_pct": 4.47,
+          "PI80_coverage_pct": 93.8,
+          "PI80_width_MW": 4576.3,
+          "n": 18
+        },
+        "UTK": {
+          "MAE_MW": 104.2,
+          "RMSE_MW": 135.3,
+          "MAPE_pct": 5.81,
+          "PI80_coverage_pct": 77.5,
+          "PI80_width_MW": 335.4,
+          "n": 18
+        }
+      },
+      "meta": {
+        "params": 175368,
+        "best_epoch": 16,
+        "valid_MAE_MW": 260.3,
+        "train_seconds": 350.6
+      }
+    },
+    "tft": {
+      "model": "tft",
+      "overall": {
+        "MAE_MW": 324.1,
+        "RMSE_MW": 604.4,
+        "MAPE_pct": 5.84,
+        "PI80_coverage_pct": 84.8,
+        "PI80_width_MW": 1354.6
+      },
+      "per_horizon": {
+        "h1": {
+          "MAE_MW": 342.1,
+          "RMSE_MW": 619.2,
+          "MAPE_pct": 5.78,
+          "PI80_coverage_pct": 84.9,
+          "PI80_width_MW": 1360.2,
+          "n": 569
+        },
+        "h6": {
+          "MAE_MW": 350.5,
+          "RMSE_MW": 660.7,
+          "MAPE_pct": 5.62,
+          "PI80_coverage_pct": 85.6,
+          "PI80_width_MW": 1366.6,
+          "n": 569
+        },
+        "h12": {
+          "MAE_MW": 342.9,
+          "RMSE_MW": 645.2,
+          "MAPE_pct": 5.62,
+          "PI80_coverage_pct": 84.5,
+          "PI80_width_MW": 1340.5,
+          "n": 569
+        },
+        "h24": {
+          "MAE_MW": 349.9,
+          "RMSE_MW": 663.7,
+          "MAPE_pct": 5.7,
+          "PI80_coverage_pct": 84.9,
+          "PI80_width_MW": 1372.3,
+          "n": 569
+        }
+      },
+      "per_state": {
+        "ACP": {
+          "MAE_MW": 14.9,
+          "RMSE_MW": 18.9,
+          "MAPE_pct": 8.69,
+          "PI80_coverage_pct": 64.4,
+          "PI80_width_MW": 39.8,
+          "n": 18
+        },
+        "AP": {
+          "MAE_MW": 425.6,
+          "RMSE_MW": 522.2,
+          "MAPE_pct": 3.7,
+          "PI80_coverage_pct": 96.1,
+          "PI80_width_MW": 2088.7,
+          "n": 18
+        },
+        "ASM": {
+          "MAE_MW": 92.0,
+          "RMSE_MW": 128.0,
+          "MAPE_pct": 4.6,
+          "PI80_coverage_pct": 94.7,
+          "PI80_width_MW": 552.9,
+          "n": 18
+        },
+        "BGL": {
+          "MAE_MW": 395.4,
+          "RMSE_MW": 518.3,
+          "MAPE_pct": 3.68,
+          "PI80_coverage_pct": 91.2,
+          "PI80_width_MW": 2235.6,
+          "n": 18
+        },
+        "CTG": {
+          "MAE_MW": 204.0,
+          "RMSE_MW": 258.4,
+          "MAPE_pct": 4.45,
+          "PI80_coverage_pct": 86.1,
+          "PI80_width_MW": 804.3,
+          "n": 18
+        },
+        "DL": {
+          "MAE_MW": 397.5,
+          "RMSE_MW": 471.2,
+          "MAPE_pct": 6.77,
+          "PI80_coverage_pct": 88.4,
+          "PI80_width_MW": 1470.9,
+          "n": 18
+        },
+        "DND": {
+          "MAE_MW": 18.0,
+          "RMSE_MW": 22.8,
+          "MAPE_pct": 5.22,
+          "PI80_coverage_pct": 75.5,
+          "PI80_width_MW": 53.8,
+          "n": 18
+        },
+        "DNH": {
+          "MAE_MW": 26.7,
+          "RMSE_MW": 32.5,
+          "MAPE_pct": 2.74,
+          "PI80_coverage_pct": 91.0,
+          "PI80_width_MW": 129.9,
+          "n": 18
+        },
+        "GJT": {
+          "MAE_MW": 1299.1,
+          "RMSE_MW": 1623.5,
+          "MAPE_pct": 5.53,
+          "PI80_coverage_pct": 75.5,
+          "PI80_width_MW": 4274.7,
+          "n": 18
+        },
+        "GOA": {
+          "MAE_MW": 20.3,
+          "RMSE_MW": 28.2,
+          "MAPE_pct": 3.81,
+          "PI80_coverage_pct": 85.6,
+          "PI80_width_MW": 83.9,
+          "n": 18
+        },
+        "HP": {
+          "MAE_MW": 89.5,
+          "RMSE_MW": 108.0,
+          "MAPE_pct": 7.12,
+          "PI80_coverage_pct": 78.2,
+          "PI80_width_MW": 287.3,
+          "n": 18
+        },
+        "HRN": {
+          "MAE_MW": 440.0,
+          "RMSE_MW": 553.0,
+          "MAPE_pct": 3.72,
+          "PI80_coverage_pct": 97.2,
+          "PI80_width_MW": 2509.8,
+          "n": 18
+        },
+        "JAK": {
+          "MAE_MW": 167.2,
+          "RMSE_MW": 219.0,
+          "MAPE_pct": 8.47,
+          "PI80_coverage_pct": 86.1,
+          "PI80_width_MW": 549.2,
+          "n": 18
+        },
+        "JHK": {
+          "MAE_MW": 97.6,
+          "RMSE_MW": 146.5,
+          "MAPE_pct": 5.41,
+          "PI80_coverage_pct": 85.4,
+          "PI80_width_MW": 360.1,
+          "n": 18
+        },
+        "KRL": {
+          "MAE_MW": 206.4,
+          "RMSE_MW": 259.5,
+          "MAPE_pct": 6.41,
+          "PI80_coverage_pct": 84.5,
+          "PI80_width_MW": 724.7,
+          "n": 18
+        },
+        "KRT": {
+          "MAE_MW": 634.2,
+          "RMSE_MW": 781.4,
+          "MAPE_pct": 5.19,
+          "PI80_coverage_pct": 81.0,
+          "PI80_width_MW": 2310.7,
+          "n": 18
+        },
+        "MGA": {
+          "MAE_MW": 14.5,
+          "RMSE_MW": 18.8,
+          "MAPE_pct": 5.25,
+          "PI80_coverage_pct": 89.8,
+          "PI80_width_MW": 65.5,
+          "n": 18
+        },
+        "MHA": {
+          "MAE_MW": 861.5,
+          "RMSE_MW": 1140.8,
+          "MAPE_pct": 3.33,
+          "PI80_coverage_pct": 91.0,
+          "PI80_width_MW": 4059.4,
+          "n": 18
+        },
+        "MIP": {
+          "MAE_MW": 12.6,
+          "RMSE_MW": 17.6,
+          "MAPE_pct": 8.22,
+          "PI80_coverage_pct": 88.4,
+          "PI80_width_MW": 48.9,
+          "n": 18
+        },
+        "MPD": {
+          "MAE_MW": 303.1,
+          "RMSE_MW": 384.4,
+          "MAPE_pct": 2.81,
+          "PI80_coverage_pct": 96.1,
+          "PI80_width_MW": 1923.7,
+          "n": 18
+        },
+        "MZM": {
+          "MAE_MW": 8.0,
+          "RMSE_MW": 10.5,
+          "MAPE_pct": 9.54,
+          "PI80_coverage_pct": 89.1,
+          "PI80_width_MW": 34.5,
+          "n": 18
+        },
+        "NGD": {
+          "MAE_MW": 12.3,
+          "RMSE_MW": 15.4,
+          "MAPE_pct": 9.38,
+          "PI80_coverage_pct": 87.0,
+          "PI80_width_MW": 46.2,
+          "n": 18
+        },
+        "ODI": {
+          "MAE_MW": 417.2,
+          "RMSE_MW": 508.2,
+          "MAPE_pct": 7.07,
+          "PI80_coverage_pct": 68.8,
+          "PI80_width_MW": 1255.8,
+          "n": 18
+        },
+        "PNB": {
+          "MAE_MW": 622.1,
+          "RMSE_MW": 768.5,
+          "MAPE_pct": 4.57,
+          "PI80_coverage_pct": 95.8,
+          "PI80_width_MW": 3206.0,
+          "n": 18
+        },
+        "PU": {
+          "MAE_MW": 25.1,
+          "RMSE_MW": 30.3,
+          "MAPE_pct": 6.22,
+          "PI80_coverage_pct": 81.9,
+          "PI80_width_MW": 78.8,
+          "n": 12
+        },
+        "RJ": {
+          "MAE_MW": 698.1,
+          "RMSE_MW": 874.2,
+          "MAPE_pct": 4.41,
+          "PI80_coverage_pct": 76.9,
+          "PI80_width_MW": 2941.4,
+          "n": 18
+        },
+        "SKM": {
+          "MAE_MW": 9.9,
+          "RMSE_MW": 12.7,
+          "MAPE_pct": 13.26,
+          "PI80_coverage_pct": 56.9,
+          "PI80_width_MW": 20.6,
+          "n": 18
+        },
+        "TLG": {
+          "MAE_MW": 931.5,
+          "RMSE_MW": 1253.8,
+          "MAPE_pct": 7.89,
+          "PI80_coverage_pct": 78.4,
+          "PI80_width_MW": 2768.2,
+          "n": 17
+        },
+        "TND": {
+          "MAE_MW": 750.6,
+          "RMSE_MW": 910.8,
+          "MAPE_pct": 4.34,
+          "PI80_coverage_pct": 92.6,
+          "PI80_width_MW": 3316.5,
+          "n": 18
+        },
+        "TPA": {
+          "MAE_MW": 20.0,
+          "RMSE_MW": 26.5,
+          "MAPE_pct": 8.09,
+          "PI80_coverage_pct": 81.9,
+          "PI80_width_MW": 67.0,
+          "n": 18
+        },
+        "UP": {
+          "MAE_MW": 992.6,
+          "RMSE_MW": 1265.6,
+          "MAPE_pct": 4.33,
+          "PI80_coverage_pct": 88.9,
+          "PI80_width_MW": 4315.4,
+          "n": 18
+        },
+        "UTK": {
+          "MAE_MW": 98.4,
+          "RMSE_MW": 132.7,
+          "MAPE_pct": 5.6,
+          "PI80_coverage_pct": 87.7,
+          "PI80_width_MW": 376.5,
+          "n": 18
+        }
+      },
+      "meta": {
+        "params": 44291,
+        "best_epoch": 18,
+        "valid_MAE_MW": 314.8,
+        "train_seconds": 1102.9
+      }
+    }
+  },
+  "ranking": [
+    {
+      "model": "itransformer",
+      "MAE_MW": 307.2,
+      "MAPE_pct": 5.56,
+      "PI80_coverage_pct": 82.4
+    },
+    {
+      "model": "tft",
+      "MAE_MW": 324.1,
+      "MAPE_pct": 5.84,
+      "PI80_coverage_pct": 84.8
+    },
+    {
+      "model": "patchtst",
+      "MAE_MW": 520.2,
+      "MAPE_pct": 9.25,
+      "PI80_coverage_pct": 79.2
+    }
+  ]
+}

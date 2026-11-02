@@ -1,0 +1,53 @@
+npm notice run game@0.1.0 dev
+npm notice run next dev --port 3000
+▲ Next.js 16.4.3 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://172.16.11.232:3000
+✓ Ready in 1160ms
+✓ Running next.config.ts took 148ms
+- Cache Components enabled
+- Partial Prefetching enabled
+
+ GET / 200 in 768ms (next.js: 247ms, application-code: 520ms)
+ GET / 200 in 153ms (next.js: 5ms, application-code: 148ms)
+ GET /api/model 200 in 289ms (next.js: 71ms, application-code: 218ms)
+ GET /api/history?state=DL&hour=2424&hours=48 200 in 252ms (next.js: 35ms, application-code: 217ms)
+ GET /api/model 200 in 539ms (next.js: 5ms, application-code: 534ms)
+ GET /api/history?state=DL&hour=2424&hours=48 200 in 599ms (next.js: 5ms, application-code: 594ms)
+ GET /api/cities?hour=2424 200 in 984ms (next.js: 17ms, application-code: 968ms)
+ GET /api/cities?hour=2424 200 in 282ms (next.js: 2ms, application-code: 280ms)
+ POST /api/forecast 200 in 1558ms (next.js: 16ms, application-code: 1542ms)
+ POST /api/forecast 200 in 1352ms (next.js: 1.9ms, application-code: 1350ms)
+ POST /api/forecast 200 in 1466ms (next.js: 3ms, application-code: 1463ms)
+ POST /api/forecast 200 in 281ms (next.js: 7ms, application-code: 274ms)
+ POST /api/forecast 200 in 541ms (next.js: 3ms, application-code: 538ms)
+ POST /api/forecast 200 in 524ms (next.js: 5ms, application-code: 519ms)
+ POST /api/forecast 200 in 677ms (next.js: 3ms, application-code: 674ms)
+ POST /api/forecast 200 in 727ms (next.js: 3ms, application-code: 724ms)
+ POST /api/forecast 200 in 701ms (next.js: 5ms, application-code: 696ms)
+ GET /api/history?state=DL&hour=2436&hours=48 200 in 53ms (next.js: 1.8ms, application-code: 51ms)
+ POST /api/forecast 200 in 777ms (next.js: 3ms, application-code: 773ms)
+ POST /api/forecast 200 in 812ms (next.js: 4ms, application-code: 808ms)
+ POST /api/forecast 200 in 793ms (next.js: 3ms, application-code: 789ms)
+ GET /api/history?state=DL&hour=2441&hours=48 200 in 34ms (next.js: 3ms, application-code: 32ms)
+ GET /api/history?state=DL&hour=2441&hours=48 200 in 23ms (next.js: 2ms, application-code: 20ms)
+ POST /api/forecast 200 in 687ms (next.js: 4ms, application-code: 684ms)
+ POST /api/forecast 200 in 745ms (next.js: 4ms, application-code: 741ms)
+ POST /api/forecast 200 in 740ms (next.js: 8ms, application-code: 732ms)
+ POST /api/forecast 200 in 273ms (next.js: 1.3ms, application-code: 272ms)
+ POST /api/forecast 200 in 286ms (next.js: 6ms, application-code: 280ms)
+ POST /api/forecast 200 in 294ms (next.js: 1.2ms, application-code: 293ms)
+ GET /api/history?state=DL&hour=2448&hours=48 200 in 35ms (next.js: 5ms, application-code: 30ms)
+ POST /api/forecast 200 in 596ms (next.js: 5ms, application-code: 591ms)
+ POST /api/forecast 200 in 600ms (next.js: 4ms, application-code: 596ms)
+ POST /api/forecast 200 in 252ms (next.js: 3ms, application-code: 249ms)
+ POST /api/forecast 200 in 781ms (next.js: 3ms, application-code: 778ms)
+ POST /api/forecast 200 in 832ms (next.js: 5ms, application-code: 827ms)
+ POST /api/forecast 200 in 284ms (next.js: 3ms, application-code: 281ms)
+ POST /api/forecast 200 in 725ms (next.js: 2ms, application-code: 723ms)
+ POST /api/forecast 200 in 749ms (next.js: 5ms, application-code: 744ms)
+ POST /api/forecast 200 in 465ms (next.js: 5ms, application-code: 461ms)
+ POST /api/forecast 200 in 515ms (next.js: 6ms, application-code: 509ms)
+ POST /api/forecast 200 in 587ms (next.js: 1.5ms, application-code: 586ms)
+ POST /api/forecast 200 in 294ms (next.js: 4ms, application-code: 291ms)
+[?25h

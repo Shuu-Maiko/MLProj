@@ -1,0 +1,24 @@
+{
+  "targets": {
+    "granularity": "hourly (resampled from 15-minute readings)",
+    "unit": "MW",
+    "series": 34,
+    "window": [
+      "2024-03-11 12:00:00",
+      "2026-11-01 03:00:00"
+    ],
+    "coverage_pct_of_hourly_grid": 92.9
+  },
+  "sources": {
+    "state_demand": "Merit India (meritindia.in) state SLDC demand pulls, mirrored by github.com/vanga/india-power-generation. The mirror declares no licence and publishes no terms of use, so the data is used as scraped public figures with attribution.",
+    "national_15min": "same mirror, India-all series (Thermal/GAS/Nuclear/Hydro/Renewable + Demand)",
+    "national_hourly_2019_2024": "github.com/2003DIVYA/India-Power-Grid-Demand-Forecasting hourlyLoadDataIndia.csv (secondary scrape; provenance unverified upstream, used only as context and cross-check)",
+    "weather": "Open-Meteo ERA5 archive, hourly, Asia/Kolkata, no key required"
+  },
+  "caveats": [
+    "No city-level measurements exist in any accessible source; the game's city demand is state model output scaled by labelled metro share constants in config/state_registry.json.",
+    "The two national sources disagree by ~4% on overlapping daily means, so absolute values are indicative rather than official CEA statistics.",
+    "Variable-date festival holidays are hand-curated approximations, not an official calendar.",
+    "Merit India Demand for IND occasionally exceeds published all-India peak records; outliers are flagged, not silently removed."
+  ]
+}

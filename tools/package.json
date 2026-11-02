@@ -1,0 +1,16 @@
+{
+  "name": "pixel-sprite-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "preview": "node preview.js",
+    "build": "node build.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "pngjs": "^7.0.0"
+  },
+  "private": true
+}

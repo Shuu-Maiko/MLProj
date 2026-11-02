@@ -1,0 +1,23 @@
+# Python 3.12. Newer interpreters have no wheels here yet: 3.14 offers neither
+# torch nor lightgbm, so the venv is pinned to 3.12.
+#
+#   cd backend
+#   uv venv --python 3.12 .venv
+#   uv pip install -r requirements.txt
+#
+# torch comes from the CPU index on purpose. The CUDA build needs roughly 6 GB of
+# temporary space during install, which this machine does not have, and every run so
+# far has trained on CPU anyway.
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+fastapi==0.162.0
+uvicorn==0.54.0
+pandas==3.1.0
+numpy==2.5.4
+pyarrow==26.0.0
+lightgbm==4.7.0
+torch==2.15.0
+scikit-learn==1.9.1
+scipy==1.18.1
+httpx==0.28.1

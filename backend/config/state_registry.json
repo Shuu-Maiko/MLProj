@@ -1,0 +1,240 @@
+{
+  "AP": {
+    "name": "Andhra Pradesh",
+    "capital": "Amaravati",
+    "lat": 16.52,
+    "lon": 80.66
+  },
+  "ACP": {
+    "name": "Arunachal Pradesh",
+    "capital": "Itanagar",
+    "lat": 27.09,
+    "lon": 93.61
+  },
+  "ASM": {
+    "name": "Assam",
+    "capital": "Dispur",
+    "lat": 26.14,
+    "lon": 91.79
+  },
+  "BGL": {
+    "name": "West Bengal",
+    "capital": "Kolkata",
+    "lat": 22.57,
+    "lon": 88.36,
+    "metro": {
+      "name": "Kolkata",
+      "share_of_state": 0.17
+    }
+  },
+  "BHR": {
+    "name": "Bihar",
+    "capital": "Patna",
+    "lat": 25.61,
+    "lon": 85.14
+  },
+  "CHG": {
+    "name": "Chandigarh",
+    "capital": "Chandigarh",
+    "lat": 30.73,
+    "lon": 76.78
+  },
+  "CTG": {
+    "name": "Chhattisgarh",
+    "capital": "Raipur",
+    "lat": 21.25,
+    "lon": 81.63
+  },
+  "DL": {
+    "name": "Delhi",
+    "capital": "New Delhi",
+    "lat": 28.61,
+    "lon": 77.21,
+    "metro": {
+      "name": "Delhi",
+      "share_of_state": 0.85
+    }
+  },
+  "DNH": {
+    "name": "Dadra and Nagar Haveli",
+    "capital": "Silvassa",
+    "lat": 20.27,
+    "lon": 72.8
+  },
+  "DND": {
+    "name": "Daman and Diu",
+    "capital": "Daman",
+    "lat": 20.41,
+    "lon": 72.85
+  },
+  "GOA": {
+    "name": "Goa",
+    "capital": "Panaji",
+    "lat": 15.49,
+    "lon": 73.83
+  },
+  "GJT": {
+    "name": "Gujarat",
+    "capital": "Gandhinagar",
+    "lat": 23.22,
+    "lon": 72.65,
+    "metro": {
+      "name": "Ahmedabad",
+      "share_of_state": 0.14
+    }
+  },
+  "HRN": {
+    "name": "Haryana",
+    "capital": "Chandigarh",
+    "lat": 28.45,
+    "lon": 77.02,
+    "weather_note": "Gurugram used so Haryana weather is not identical to Punjab's"
+  },
+  "HP": {
+    "name": "Himachal Pradesh",
+    "capital": "Shimla",
+    "lat": 31.1,
+    "lon": 77.17
+  },
+  "JAK": {
+    "name": "Jammu and Kashmir",
+    "capital": "Srinagar",
+    "lat": 34.08,
+    "lon": 74.8
+  },
+  "JHK": {
+    "name": "Jharkhand",
+    "capital": "Ranchi",
+    "lat": 23.36,
+    "lon": 85.33
+  },
+  "KRL": {
+    "name": "Kerala",
+    "capital": "Thiruvananthapuram",
+    "lat": 8.52,
+    "lon": 76.94
+  },
+  "KRT": {
+    "name": "Karnataka",
+    "capital": "Bengaluru",
+    "lat": 12.97,
+    "lon": 77.59,
+    "metro": {
+      "name": "Bengaluru",
+      "share_of_state": 0.25
+    }
+  },
+  "MGA": {
+    "name": "Meghalaya",
+    "capital": "Shillong",
+    "lat": 25.58,
+    "lon": 91.89
+  },
+  "MHA": {
+    "name": "Maharashtra",
+    "capital": "Mumbai",
+    "lat": 19.08,
+    "lon": 72.88,
+    "metro": {
+      "name": "Mumbai",
+      "share_of_state": 0.23
+    }
+  },
+  "MIP": {
+    "name": "Manipur",
+    "capital": "Imphal",
+    "lat": 24.82,
+    "lon": 93.94
+  },
+  "MPD": {
+    "name": "Madhya Pradesh",
+    "capital": "Bhopal",
+    "lat": 23.26,
+    "lon": 77.41
+  },
+  "MZM": {
+    "name": "Mizoram",
+    "capital": "Aizawl",
+    "lat": 23.72,
+    "lon": 92.72
+  },
+  "NGD": {
+    "name": "Nagaland",
+    "capital": "Kohima",
+    "lat": 25.84,
+    "lon": 94.11
+  },
+  "ODI": {
+    "name": "Odisha",
+    "capital": "Bhubaneswar",
+    "lat": 20.3,
+    "lon": 85.82
+  },
+  "PNB": {
+    "name": "Punjab",
+    "capital": "Chandigarh",
+    "lat": 30.9,
+    "lon": 75.86,
+    "weather_note": "Ludhiana used so Punjab weather is not identical to Haryana's"
+  },
+  "PU": {
+    "name": "Puducherry",
+    "capital": "Puducherry",
+    "lat": 11.94,
+    "lon": 79.81
+  },
+  "RJ": {
+    "name": "Rajasthan",
+    "capital": "Jaipur",
+    "lat": 26.91,
+    "lon": 75.79
+  },
+  "SKM": {
+    "name": "Sikkim",
+    "capital": "Gangtok",
+    "lat": 27.33,
+    "lon": 88.61
+  },
+  "TND": {
+    "name": "Tamil Nadu",
+    "capital": "Chennai",
+    "lat": 13.08,
+    "lon": 80.27,
+    "metro": {
+      "name": "Chennai",
+      "share_of_state": 0.19
+    }
+  },
+  "TLG": {
+    "name": "Telangana",
+    "capital": "Hyderabad",
+    "lat": 17.38,
+    "lon": 78.49,
+    "metro": {
+      "name": "Hyderabad",
+      "share_of_state": 0.38
+    }
+  },
+  "TPA": {
+    "name": "Tripura",
+    "capital": "Agartala",
+    "lat": 23.83,
+    "lon": 91.28
+  },
+  "UP": {
+    "name": "Uttar Pradesh",
+    "capital": "Lucknow",
+    "lat": 26.85,
+    "lon": 80.94,
+    "metro": {
+      "name": "Lucknow",
+      "share_of_state": 0.08
+    }
+  },
+  "UTK": {
+    "name": "Uttarakhand",
+    "capital": "Dehradun",
+    "lat": 30.32,
+    "lon": 78.03
+  }
+}
